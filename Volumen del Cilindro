@@ -1,0 +1,11 @@
+Algoritmo Tarea
+	Escribir "Ingrese el radio"
+	Leer radio
+	Escribir "Ingrese la altura"
+	Leer altura
+	valor_pi<-3.1416
+	Volumen <-valor_pi*(radio^2)*altura
+	//Mostrar Resultado
+	Escribir "El Volumen del Cilindro es ", Volumen
+	
+FinAlgoritmo
