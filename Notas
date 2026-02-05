@@ -1,0 +1,13 @@
+Algoritmo MiNotaFinal
+	Escribir "Ingrese la nota del Primer Parcial (25%):"
+	Leer Parcial_Primer 
+	Escribir "Ingrese la nota del Segundo Parcial (20%):"
+	Leer Parcial_Segundo
+	Escribir "Ingrese la nota de Participación (20%):"
+	Leer Participacion
+	Escribir "Ingrese la nota del Examen Final (35%):" 
+	Leer Examen_Final
+	NotaFinal <- (Parcial_Primer * 0.25) + (Parcial_Segundo * 0.20) + (Participacion * 0.20) + (Examen_Final * 0.35)
+	
+	Escribir "Tu nota final es: ", NotaFinal
+FinAlgoritmo
